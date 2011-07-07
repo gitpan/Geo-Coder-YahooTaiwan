@@ -1,0 +1,7 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Geo/Coder/YahooTaiwan.pm
+t/all.t
+META.yml                                 Module meta-data (added by MakeMaker)
