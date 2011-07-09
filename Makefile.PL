@@ -7,8 +7,9 @@ WriteMakefile(
     VERSION_FROM      => 'lib/Geo/Coder/YahooTaiwan.pm', # finds $VERSION
     PREREQ_PM         => {
       'JSON::XS' => 0,
+      'LWP::UserAgent' => 0,
     },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Geo/Coder/YahooTaiwan.pm', # retrieve abstract from module
-       AUTHOR         => 'Yen-Ming Lee <leeym@corenetworks.net>') : ()),
+       AUTHOR         => 'Yen-Ming Lee <leeym@leeym.com>') : ()),
 );

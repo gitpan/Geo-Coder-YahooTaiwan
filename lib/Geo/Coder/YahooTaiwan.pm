@@ -3,7 +3,7 @@ package Geo::Coder::YahooTaiwan;
 use JSON::XS;
 use LWP::UserAgent;
 use strict;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
   my($class, %param) = @_;

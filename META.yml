@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:               Geo-Coder-YahooTaiwan
-version:            0.01
+version:            0.02
 abstract:           Yahoo! Taiwan Maps Geocoding API
 author:
-    - Yen-Ming Lee <leeym@corenetworks.net>
+    - Yen-Ming Lee <leeym@leeym.com>
 license:            unknown
 distribution_type:  module
 configure_requires:
@@ -11,7 +11,8 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    JSON::XS:  0
+    JSON::XS:        0
+    LWP::UserAgent:  0
 no_index:
     directory:
         - t

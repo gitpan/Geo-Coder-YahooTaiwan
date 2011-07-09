@@ -1,5 +1,8 @@
 Revision history for Perl extension Geo::Coder::YahooTaiwan.
 
+0.02  Fri Jul  8 22:39:12 PDT 2011
+        - update Makefile.PL for dependency
+
 0.01  Wed Nov 12 17:11:29 2008
 	- original version; created by h2xs 1.23 with options
 		-X -n Geo::Coder::YahooTaiwan
